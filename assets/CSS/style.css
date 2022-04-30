@@ -1,0 +1,474 @@
+/*___________________HEADER________________________*/
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+.top {
+    width: 100%;
+    height: 30px;
+    margin: 0.5em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.below {
+    height: 150px;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-size: 1.8em;
+    letter-spacing: 1.2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 1em;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.nombreWeb {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rrss {
+    width: 12%;
+    height: 150px;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div.rrss a {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.logoColor img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.logoColor>img:nth-child(2) {
+    display: none;
+}
+
+.logoColor:hover>img:nth-child(1) {
+    display: none;
+}
+
+.logoColor:hover>img:nth-child(2) {
+    display: block;
+}
+
+
+/*___________________NAV________________________*/
+
+.menuFondo {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: rgba(211, 211, 211, 0.3);
+    width: 100%;
+    height: 50px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav ul {
+    width: 60%;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li {
+    width: 25%;
+    list-style: none;
+    margin: 0;
+    border-right: black solid 0.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul li:first-child {
+    width: 32%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul li#redes-border {
+    border-right: none;
+}
+
+nav ul li a:hover {
+    color: grey;
+}
+
+.fondoPortada {
+    width: 100%;
+    height: 250px;
+    background-image: url(../../Imagenes/collage_portada/sin_brochazo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-bienvenida p {
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*___________________MAIN________________________*/
+
+main {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+section.secciones {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+}
+
+/*__EXPOSICIONES__*/
+
+#expo {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    width: 95%;
+    font-size: 1.5em;
+    margin: 0.5em auto;
+    border-bottom: 0.15em solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgExpo {
+    width: 60%;
+}
+
+.galeria-imagenes {
+    width: 80%;
+    margin: 1.5em auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria-imagenes img {
+    width: 70%;
+    margin: 0.5em;
+}
+
+div.primera-fila {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.primera-fila .img1 {
+    width: 30%;
+    height: auto;
+    margin: 0.2em;
+    background-image: url(../../Imagenes/galeria_imagenes/Imagen1_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.primera-fila .img1:hover {
+    background-image: url(../../Imagenes/galeria_imagenes/Imagen1.jpeg);
+}
+
+div.primera-fila .img2 {
+    width: 30%;
+    height: auto;
+    margin: 0.2em;
+    background-image: url(../../Imagenes/galeria_imagenes/Imagen2_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.primera-fila .img2:hover {
+    background-image: url(../../Imagenes/galeria_imagenes/Imagen2.jpeg);
+}
+
+div.primera-fila .img3 {
+    width: 30%;
+    height: auto;
+    margin: 0.2em;
+    background-image: url(../../Imagenes/galeria_imagenes/Imagen3_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.primera-fila .img3:hover {
+    background-image: url(../../Imagenes/galeria_imagenes/Imagen3.jpeg);
+}
+
+div.segunda-fila {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.segunda-fila .img4 {
+    width: 30%;
+    height: auto;
+    margin: 0.2em;
+    background-image: url(../../Imagenes/galeria_imagenes/Imagen4_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.segunda-fila .img4:hover {
+    background-image: url(../../Imagenes/galeria_imagenes/Imagen4.jpeg);
+}
+
+div.segunda-fila .img5 {
+    width: 30%;
+    height: auto;
+    margin: 0.2em;
+    background-image: url(../../Imagenes/galeria_imagenes/Imagen5_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.segunda-fila .img5:hover {
+    background-image: url(../../Imagenes/galeria_imagenes/Imagen5.jpeg);
+}
+
+div.segunda-fila .img6 {
+    width: 30%;
+    height: auto;
+    margin: 0.2em;
+    background-image: url(../../Imagenes/galeria_imagenes/Imagen6_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.segunda-fila .img6:hover {
+    background-image: url(../../Imagenes/galeria_imagenes/Imagen6.jpeg);
+}
+
+/*__GALERÍA__*/
+
+#galeria {
+    width: 100%;
+    height: auto;
+}
+
+.luces {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.galeriaImg {
+    width: 25%;
+    margin: 1em auto;
+}
+
+/*_____SLIDER_____*/
+
+#slider {
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: -50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transform: scale(.1);
+    transition: right 1s, transform 1s;
+}
+
+.slide img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 77%;
+}
+
+.slide img.placa {
+    max-height: 20%;
+}
+
+.slide.salida {
+    left: 0;
+    transform-origin: left;
+    transform: scale(.5);
+    transition: left 1s, transform 1s;
+}
+
+.slide.principal {
+    transform: scale(1);
+    left: 25%;
+    transition: left 1s, transform 1s;
+}
+
+.slide.entrada {
+    right: 0;
+    transform-origin: right;
+    transform: scale(.5);
+    transition: transform 1s, left 1s, right 1s;
+}
+
+.slide.saliendo {
+    left: -50%;
+    transform: scale(.1);
+}
+
+.slide.principal-salida {
+    transform-origin: left;
+    left: 0;
+    transform: scale(.5);
+}
+
+.slide.entrada-principal {
+    right: 25%;
+    transform: inherit;
+}
+
+.slide.entrando {
+    right: 0;
+    transform-origin: right;
+    transform: scale(.5);
+}
+
+/*__REDES__*/
+
+#redes {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+.redesSociales {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.redesSociales a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redesSociales a img {
+    width: 90%;
+    border-radius: 40px;
+}
+
+/*___________________FOOTER________________________*/
+
+footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 120px;
+    height: 120px;
+}
+
+h4 {
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer div a {
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer div a img {
+    width: 120px;
+    height: 120px;
+    transition: .9s;
+}
+
+footer div a img:hover {
+    transform: scale(1.25);
+}
