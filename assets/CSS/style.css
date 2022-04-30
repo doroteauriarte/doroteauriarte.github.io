@@ -333,25 +333,19 @@ div.segunda-fila .img6:hover {
 
 /*_____SLIDER_____*/
 
-#slider {
-    width: 100%;
+.splide ul {
     height: 75vh;
-    overflow: hidden;
-    position: relative;
+    /* overflow: hidden;
+    position: relative; */
 }
 
 .slide {
     height: 100%;
     width: 50%;
-    position: absolute;
-    top: 0;
-    right: -50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transform: scale(.1);
-    transition: right 1s, transform 1s;
 }
 
 .slide img {
@@ -420,6 +414,7 @@ div.segunda-fila .img6:hover {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    margin-top: 2em;
 }
 
 .redesSociales a {

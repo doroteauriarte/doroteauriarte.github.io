@@ -179,7 +179,14 @@
     }
 
     .redesSociales {
-        width: 90%;
+        width: 90%;     
+        margin-top: 1em;   
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .redesSociales a {
+        margin: 0.5em auto;
     }
 
     .redesSociales a img {
@@ -338,7 +345,8 @@
     }
 
     .redesSociales {
-        width: 70%;
+        margin-top: 1em;
+        width: 90%;
         flex-direction: column;
         justify-content: space-between;
     }
