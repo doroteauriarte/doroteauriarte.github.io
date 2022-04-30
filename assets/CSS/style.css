@@ -349,7 +349,7 @@ div.segunda-fila .img6:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     transform: scale(.1);
     transition: right 1s, transform 1s;
 }
@@ -361,13 +361,14 @@ div.segunda-fila .img6:hover {
 }
 
 .slide img.placa {
+    margin-top: 2%;
     max-height: 20%;
 }
 
 .slide.salida {
     left: 0;
     transform-origin: left;
-    transform: scale(.5);
+    transform: scale(.4);
     transition: left 1s, transform 1s;
 }
 
@@ -380,7 +381,7 @@ div.segunda-fila .img6:hover {
 .slide.entrada {
     right: 0;
     transform-origin: right;
-    transform: scale(.5);
+    transform: scale(.4);
     transition: transform 1s, left 1s, right 1s;
 }
 
@@ -392,7 +393,7 @@ div.segunda-fila .img6:hover {
 .slide.principal-salida {
     transform-origin: left;
     left: 0;
-    transform: scale(.5);
+    transform: scale(.4);
 }
 
 .slide.entrada-principal {
@@ -403,7 +404,7 @@ div.segunda-fila .img6:hover {
 .slide.entrando {
     right: 0;
     transform-origin: right;
-    transform: scale(.5);
+    transform: scale(.4);
 }
 
 /*__REDES__*/
