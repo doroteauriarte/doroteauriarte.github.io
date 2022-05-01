@@ -343,7 +343,8 @@ div.segunda-fila .img6:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+
 }
 
 .slide img {
@@ -353,7 +354,6 @@ div.segunda-fila .img6:hover {
 }
 
 .slide img.placa {
-    margin-top: 2%;
     max-height: 20%;
 }
 
